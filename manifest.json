@@ -1,10 +1,10 @@
 {
   "manifest_version": 2,
-  "name": "FigmaCN",
-  "short_name": "FigmaCN",
-  "description": "中文 Figma 插件，设计师人工翻译校验。",
+  "name": "FigmaTW",
+  "short_name": "FigmaTW",
+  "description": "用於將 Figma 翻譯為繁體中文（台灣）的瀏覽器插件（figmaCN fork 版）",
   "version": "1.0",
-  "homepage_url": "https://figma.cool",
+  "homepage_url": "https://github.com/SiongSng/figma-taiwan-translation",
   "icons": {
     "16": "img/icon-16.png",
     "48": "img/icon-48.png",
