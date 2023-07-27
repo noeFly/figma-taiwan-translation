@@ -2,7 +2,7 @@
 
 ![image](extension/img/icon-128.png)
 
-這是個用於將 Figma 翻譯為繁體中文（台灣）的瀏覽器插件（figmaCN fork 版）。
+這是款用於將 Figma 的使用者介面翻譯為繁體中文（台灣）的瀏覽器擴充套件。
 
 不用再為了看不懂英文而煩惱，盡情發揮創意透過 FIgma 設計各種東西吧！
 
