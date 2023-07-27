@@ -8,7 +8,7 @@
 
 不用再為了看不懂英文而煩惱，盡情發揮創意透過 FIgma 設計各種東西吧！
 
-安裝後記得重新整理 Figma 頁面翻譯才會生效喔！  
+安裝後記得**重新整理 Figma 頁面**翻譯才會生效喔！  
 倘若翻譯仍未生效請確認是否有給予本擴充套件足夠的權限，若仍無效歡迎到[這裡](https://github.com/SiongSng/figma-taiwan-translation/discussions)，新增討論串，我會協助您進行排錯。
 
 
@@ -17,7 +17,10 @@
 ### Edge 附加元件商店
 等待審核中
 ### Firefox 附加元件站
-等待審核中
+
+請在 Firefox 中點擊下方連結，並按下「新增至 Firefox」的藍色按鈕就大功告成啦！  
+安裝後記得**重新整理 Figma 頁面**翻譯才會生效喔！  
+https://addons.mozilla.org/zh-TW/firefox/addon/figma-taiwan-translation/
 
 ## 🖼️ 展示
 <img src="screenshot/FigmaTW-screenshot-1.png" width="850px"/>
