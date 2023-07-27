@@ -523,7 +523,7 @@ const allData = [
   [`Browse templates`, `瀏覽範本`],
   [
     `Build fully-responsive components with new Auto Layout updates. Stretch in any direction, control padding independently, and distribute objects evenly—all in an easier to use interface.`,
-    `使用新的自動佈局更新來構建完全響應的組件。在任何方向上拉伸，單獨控制邊距，並在一個更容易使用的界面中均勻地分配物件。`,
+    `使用新的自動佈局更新來構建完全響應的組件。在任何方向上拉伸，單獨控制邊距，並在一個更容易使用的介面中均勻地分配物件。`,
   ],
   [`Bulleted list`, `項目符號`],
   [`Business model canvas`, `商業模式畫布`],
@@ -1802,8 +1802,8 @@ const allData = [
   [`Minimize`, `最小化`],
   [`Mirror angle and length`, `角度與長度對稱`],
   [`Mirror angle`, `角度對稱`],
-  [`Missing font`, `字體遺失`],
-  [`Missing fonts`, `字體遺失`],
+  [`Missing font`, `缺少字體`],
+  [`Missing fonts`, `缺少字體`],
   [`Miter Angle`, `斜度`],
   [`Miter angle`, `斜度`],
   [`Miter`, `斜接`],
@@ -2675,7 +2675,7 @@ const allData = [
   [`Show/hide author`, `顯示/隱藏作者`],
   [`Show/Hide comments`, `顯示/隱藏留言`],
   [`Show/Hide selection`, `顯示/隱藏所選項`],
-  [`Show/Hide UI`, `顯示/隱藏界面`],
+  [`Show/Hide UI`, `顯示/隱藏介面`],
   [`Show/Hide`, `顯示/隱藏`],
   [`Show`, `顯示`],
   [
