@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Figma 繁體中文翻譯（開發者專用）",
+  "short_name": "FigmaTW",
+  "description": "開發者專用，用於取得尚未翻譯的內容",
+  "version": "1.0.0",
+  "author": "SiongSng and Figma-Cool/figmaCN authors",
+  "homepage_url": "https://github.com/SiongSng/figma-taiwan-translation",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.figma.com/*"
+      ],
+      "js": [
+        "js/dev-content.js"
+      ],
+      "run_at": "document_end",
+      "all_frames": true
+    }
+  ]
+}
