@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Figma 繁體中文翻譯",
   "short_name": "FigmaTW",
-  "description": "用於將 Figma 的使用者介面翻譯為繁體中文（台灣）的瀏覽器插件",
+  "description": "用於將 Figma 的使用者介面翻譯為繁體中文（台灣）的瀏覽器擴充套件",
   "version": "1.0.0",
   "author": "SiongSng and Figma-Cool/figmaCN authors",
   "homepage_url": "https://github.com/SiongSng/figma-taiwan-translation",
@@ -10,6 +10,11 @@
     "16": "img/icon-16.png",
     "48": "img/icon-48.png",
     "128": "img/icon-128.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{7897338b-3320-43af-b301-4dbb058048e2}"
+    }
   },
   "content_scripts": [
     {
