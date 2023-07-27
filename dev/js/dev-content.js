@@ -5,6 +5,7 @@ let MutationObserverConfig = {
   attributeFilter: ["data-label"],
   characterData: true,
 };
+let unTranslatedSet = new Set();
 
 let observer = new MutationObserver(function (mutations) {
   let treeWalker = document.createTreeWalker(
@@ -26,24 +27,30 @@ let observer = new MutationObserver(function (mutations) {
     },
     false
   );
-  let unTranslatedSet = new Set();
+
+  function isUnTranslated(text) {
+    return !RegExp(/[\u4e00-\u9fa5]|CDATA|\n/).test(text);
+  }
 
   let currentNode = treeWalker.currentNode;
   while (currentNode) {
     if (currentNode.nodeType === 3) {
-      let text = currentNode.textContent;
-      if (!RegExp(/[\u4e00-\u9fa5]|CDATA/).test(text)) {
-        unTranslatedSet.add(text);
+      let text1 = currentNode.textContent;
+      if (isUnTranslated(text1)) {
+        unTranslatedSet.add(text1);
       }
     } else {
-      // let key2 = currentNode.getAttribute("data-label");
-      // if (key2 && dataMap.has(key2))
-      //   currentNode.setAttribute("data-label", dataMap.get(key2));
-      // let key3 = currentNode.getAttribute("placeholder") || "";
-      // if ((key3 = key3.trim())) {
-      //   if (dataMap.has(key3))
-      //     currentNode.setAttribute("placeholder", dataMap.get(key3));
-      // }
+      let text2 = currentNode.getAttribute("data-label");
+      if (isUnTranslated(text2)) {
+        unTranslatedSet.add(text2);
+      }
+
+      let text3 = currentNode.getAttribute("placeholder") || "";
+      if ((text3 = text3.trim())) {
+        if (isUnTranslated(text3)) {
+          unTranslatedSet.add(text3);
+        }
+      }
     }
 
     currentNode = treeWalker.nextNode();

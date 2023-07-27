@@ -2730,6 +2730,7 @@ const allData = [
   [`Square`, `方頭`],
   [`Stamp`, `印章`],
   [`Standard Ligatures`, `標準連字`],
+  [`Standard`, `標準`],
   [`Star`, `星形`],
   [`Start ascending from`, `起始編號`],
   [`Start conversation`, `開始對話`],
