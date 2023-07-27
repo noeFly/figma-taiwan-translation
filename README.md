@@ -36,7 +36,7 @@
 
 
 #### Firefox
-請先下載擴充套件檔案：[點我下載](https://github.com/SiongSng/figma-taiwan-translation/releases/latest/download/figma-tw-translation-chromium.zip)
+請先下載擴充套件檔案：[點我下載](https://github.com/SiongSng/figma-taiwan-translation/releases/latest/download/figma-tw-translation.zip)
 
 下載完擴充套件檔案後請按照下列步驟手動安裝：  
 首先請先在上方網址列輸入「about:debugging」，就會看到以下畫面：  
