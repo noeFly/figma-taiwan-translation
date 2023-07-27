@@ -1,5 +1,7 @@
 # Figma 繁體中文翻譯
 
+![image](extension/img/icon-128.png)
+
 這是個用於將 Figma 翻譯為繁體中文（台灣）的瀏覽器插件（figmaCN fork 版）。
 
 不用再為了看不懂英文而煩惱，盡情發揮創意透過 FIgma 設計各種東西吧！
@@ -58,5 +60,5 @@ The source code of this application is released under the [GNU General Public Li
 
 ---
 
-> 本擴充套件是 [figmaCN](https://github.com/Figma-Cool/figmaCN) 的 fork，感謝他們的翻譯與 Content Scripts。  
-> NOT AN OFFICIAL FIGMA PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH FIGMA.
+本擴充套件是 [figmaCN](https://github.com/Figma-Cool/figmaCN) 的 fork，感謝他們的翻譯與 Content Scripts。  
+NOT AN OFFICIAL FIGMA PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH FIGMA.
