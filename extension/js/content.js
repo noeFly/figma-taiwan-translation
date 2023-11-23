@@ -3470,7 +3470,8 @@ const allData = [
   [`Zoom/view options`, `縮放/檢視選項`],
   [`Zoom`, `縮放`],
   
-  // 2023.11.22  登入後的主頁面（aka 儀錶板？）
+  ///// 2023.11.22
+  // Dashboard
   [`No files yet`, `還沒有任何檔案`],
   [`FigJam Basics`, `基礎 FigJam`],
   [`Wireframing in Figma`, `用 Figma 設計線框稿`],
@@ -3498,6 +3499,96 @@ const allData = [
   [`Drag in Miro PDFs, Sketch files, images, and more.`, `將你的 Miro PDF、照片等拖曳進來。`],
   [`From Jamboard`, `從 Jamboard`],
   [`Bring in boards from Google Drive.`, `從 Google 雲端硬碟中匯入白板。`],
+
+  ///// 2023.11.23
+  // Dashboard
+  [`for the last quarter`, `準備最後一季`],
+  [`for a sign-up flow`, `新人註冊流程`],
+  [`to show project sequencing`, `排列專案的優先順序`]
+  // USERNAME's team
+  [` · Updated `, ` · 更新於 `],
+  [`When you `, `當你`],
+  [`upgrade to a paid plan`, `升級到付費計畫`],
+  [
+    `, you can create unlimited files, organize your work into projects, and build a shared library of components for your team.`,
+    `，你可以創建無限檔案，將你的工作組織到專案當中，並打造一個與你的團隊共享的組件庫。`
+  ],
+  [`You've reached your project limit (1/1)`, `你已經達到你的專案數量限制（1/1）`],
+  [` for unlimited files, projects, and customizable team libraries.`, `獲得無限制的檔案、專案、以及自定義團隊庫。`],
+  // 團隊專案
+  [`0 of 3 Figma files used`, `已使用 0 / 3 個 Figma 設計稿`],
+  [`1 of 3 Figma files used`, `已使用 1 / 3 個 Figma 設計稿`],
+  [`2 of 3 Figma files used`, `已使用 2 / 3 個 Figma 設計稿`],
+  [`3 of 3 Figma files used`, `已使用 3 / 3 個 Figma 設計稿`],
+  [`0 of 3 FigJam files used`, `已使用 0 / 3 個 FigJam 白板`],
+  [`1 of 3 FigJam files used`, `已使用 1 / 3 個 FigJam 白板`],
+  [`2 of 3 FigJam files used`, `已使用 2 / 3 個 FigJam 白板`],
+  [`3 of 3 FigJam files used`, `已使用 3 / 3 個 FigJam 白板`],
+  [`Updated`, `上次更新`],
+  [` files`, ` 個檔案`]
+  // 刪除團隊
+  [`This will permanently delete the team `, `這將會永久刪除 `],
+  [`28 days`, `28 天`],
+  [`Note:`, `備註：`],
+  [
+    ` This is the only team that you own. After deleting it, you'll be redirected to a new team that'll be automatically created for you as part of Figma's updates to how teams and files are organized.`,
+    `這是你唯一擁有的團隊。刪除之後，你將會被重定向至為你自動創建的新團隊，作為 Figma 更新你的檔案和檔案組織方式的一部分。`
+  ],
+  // 邀請團隊
+  [`Team invite link settings`, `團隊邀請連結設定`],
+  // 升級團隊計畫
+  [`Monthly billing`, `每月付費`],
+  [`Yearly `, `每年付費 `],
+  [`(Save up to 40%)`, `（節省最多 40％）`],
+  [`Free, for trying things out.`, `免費試用功能。`],
+  [`Most popular`, `最受歡迎`],
+  [`For you and your team, with unlimited files and all the pro features.`, `為擬與你的團隊提供無限的檔案和其他的高級功能。`],
+  [`Figma Design`, `Figma 設計稿`],
+  [`/editor/mo.`, `/編輯者/月`],
+  [`For bringing teams together, sharing an org-wide design system, and more.`, `凝聚你的團隊，分享全組織的設計系統，以及更多。`],
+  [`Or, `, `或是`],
+  [`3 files, 3 pages, and 1 project`, `3 個檔案、3 個頁面和 1 個專案`],
+  [`Unlimited files, pages, and projects`, `無限制數量的檔案、頁面和專案`],
+  [`30 days only`, `只有 30 天`],
+  [`Team-wide`, `整個團隊`],
+  [`Org-wide`, `整個組織`],
+  [`Audio conversations`, `語音交流`],
+  [`SSO, advanced security`, `單一身份登入與進階安全`],
+  [`Design system analytics`, `設計系統分析`],
+  [`Custom templates`, `自定義範本`],
+  [`See all features →`, `查看所有功能 →`],
+  [`Billed yearly.`, `每年付費。`],
+  [` Switch the billing cycle to yearly to view org pricing.`, `將付費週期切換至「每年付費」以查看組織計畫的定價。`],
+  [`Create and manage multiple projects and files.`, `創建和管理多個專案和檔案。`],
+  [`Use audio to talk with your collaborators directly in a Figma or FigJam file.`, `使用語音和你的協作者直接在 Figma 或 FigJam 檔案中交流。`],
+  [`Create invite-only spaces for your team to work privately.`, `為你的團隊創建一個邀請制的私人工作空間，`],
+  [`Create design systems with shared UI components for your team to use.`, `使用你的團隊的共享組件創建設計系統`],
+  [
+    `Figma auto-saves and creates versions of your file every 30 minutes. You can name a version at any time and link to past versions.`,
+    `Figma 每 30 分鐘自動儲存並建立你的檔案版本。你可以在任何時候為版本命名並連結到過去的版本。`
+  ],
+  [
+    `Set up SAML single sign-on with your existing identity management system; enforce SSO for all team members and manage provisioning via SCIM.`,
+    `使用你已有的管理系統設置安全聲明標記語言（SAML）單一身份登入（SSO）；透過安全聲明標記語言強制所有團隊成員使用單一身份登入和管理服務。`
+  ],
+  [
+    `View usage metrics to track adoption, measure impact, and more effectively maintain your design system.`,
+    `查看使用指標並追蹤採用情形、衡量影響並更有效率的維護你的設計系統。`
+  ],
+  [`Make your own templates and share them with your organization.`, `製作屬於你的範本，並與組織成員分享。`]
+  // 設定
+  [`Managed by Google`, `由 Google 管理`],
+  [`What kind of work do you do?`, `你從事什麼類型的工作？`],
+  [`Student or educator`, `學生或是教育人士`],
+  [`In education`, `教育領域`],
+  [`Software development`, `軟體開發`],
+  [`User research`, `使用者研究`],
+  [`Marketing`, `行銷`],
+  [`Product management`, `產品管理`],
+  [`Change language`, `變更語言`],
+  [` for all files in your drafts`, `給你所有的草稿`],
+  [`Generate new token`, `生成新的權杖`],
+  [`You don't have any connected apps.`, `你沒有任何和已連接的應用程式。`]
 ];
 
 let MutationObserver = window.MutationObserver || window.WebKitMutationObserver;
