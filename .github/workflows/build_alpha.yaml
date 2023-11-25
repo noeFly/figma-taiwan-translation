@@ -1,6 +1,9 @@
-name: "Generate a addon .zip file."
+name: "Build Alpha"
 
-on: push
+on: 
+  push:
+    branches: [ main ]
+  workflow_dispatch:
 
 jobs:
     build:
