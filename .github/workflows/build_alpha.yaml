@@ -10,12 +10,13 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: "Check Out"
-              uses: action/checkout@v4
+              uses: actions/checkout@v4
             - name: "生成插件壓縮檔"
               run: |
                 sudo apt get install zip
-                zip FigmaTW-alpha.zip ./extension
+                zip zlpha.zip ./extension
             - name: 上傳檔案
-              uses: action/upload-artifact@v3
+              uses: actions/upload-artifact@v3
               with:
                 name: FigmaTW-alpha
+                path: ./zlpha.zip
