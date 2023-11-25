@@ -1,4 +1,4 @@
-# Figma 繁體中文翻譯
+# Figma 繁體中文翻譯 [![Build Alpha](https://github.com/NoeEdge0120/figma-taiwan-translation/actions/workflows/build_alpha.yaml/badge.svg?branch=master)](https://github.com/NoeEdge0120/figma-taiwan-translation/actions/workflows/build_alpha.yaml)
 
 ![image](extension/img/icon-128.png)
 
