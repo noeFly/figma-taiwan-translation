@@ -11,12 +11,12 @@ jobs:
         steps:
             - name: "Check Out"
               uses: actions/checkout@v4
-            - name: "生成插件壓縮檔"
-              run: |
-                sudo apt install zip
-                zip zlpha.zip ./extension
+            # - name: "生成插件壓縮檔"
+            #   run: |
+            #     sudo apt install zip
+            #     zip zlpha.zip ./extension/*
             - name: 上傳檔案
               uses: actions/upload-artifact@v3
               with:
                 name: FigmaTW-alpha
-                path: ./zlpha.zip
+                path: ./extension/*
