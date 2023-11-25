@@ -3504,7 +3504,7 @@ const allData = [
   // Dashboard
   [`for the last quarter`, `準備最後一季`],
   [`for a sign-up flow`, `新人註冊流程`],
-  [`to show project sequencing`, `排列專案的優先順序`]
+  [`to show project sequencing`, `排列專案的優先順序`],
   // USERNAME's team
   [` · Updated `, ` · 更新於 `],
   [`When you `, `當你`],
@@ -3525,7 +3525,7 @@ const allData = [
   [`2 of 3 FigJam files used`, `已使用 2 / 3 個 FigJam 白板`],
   [`3 of 3 FigJam files used`, `已使用 3 / 3 個 FigJam 白板`],
   [`Updated`, `上次更新`],
-  [` files`, ` 個檔案`]
+  [` files`, ` 個檔案`],
   // 刪除團隊
   [`This will permanently delete the team `, `這將會永久刪除 `],
   [`28 days`, `28 天`],
@@ -3575,7 +3575,7 @@ const allData = [
     `View usage metrics to track adoption, measure impact, and more effectively maintain your design system.`,
     `查看使用指標並追蹤採用情形、衡量影響並更有效率的維護你的設計系統。`
   ],
-  [`Make your own templates and share them with your organization.`, `製作屬於你的範本，並與組織成員分享。`]
+  [`Make your own templates and share them with your organization.`, `製作屬於你的範本，並與組織成員分享。`],
   // 設定
   [`Managed by Google`, `由 Google 管理`],
   [`What kind of work do you do?`, `你從事什麼類型的工作？`],
@@ -3588,7 +3588,7 @@ const allData = [
   [`Change language`, `變更語言`],
   [` for all files in your drafts`, `給你所有的草稿`],
   [`Generate new token`, `生成新的權杖`],
-  [`You don't have any connected apps.`, `你沒有任何和已連接的應用程式。`]
+  [`You don't have any connected apps.`, `你沒有任何和已連接的應用程式。`],
 ];
 
 let MutationObserver = window.MutationObserver || window.WebKitMutationObserver;
