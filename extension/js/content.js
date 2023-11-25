@@ -3631,6 +3631,59 @@ const allData = [
   [` for all files in your drafts`, `給你所有的草稿`],
   [`Generate new token`, `生成新的權杖`],
   [`You don't have any connected apps.`, `你沒有任何和已連接的應用程式。`],
+
+  ///// 2023.11.25
+  // Dashboard
+  [`with 3 levels`, `有三個階層`],
+  [
+    `Couldn't find any matches. Try adjusting your filters.`,
+    `無法找到任何符合的項目。請嘗試調整你的篩選器。`,
+  ],
+  [`for team goals and projects`, `整理團隊目標和專案`],
+  [`Weekly sync`, `每周進度追蹤`],
+  [`for a large product team`, `大型產品團隊`],
+  // 升級團隊計畫
+  [`Select a team to upgrade`, `選擇一個團隊進行升級`],
+  [` editor`, ` 位編輯者`],
+  [`Or create a new team to upgrade`, `或是創建一個新團隊進行升級`],
+  [`Team name, e.g. Product Design`, `團隊名稱，例如：產品設計部`],
+  // 團隊專案
+  [`Diagram Basics`, `基礎圖表`],
+  [`Daily sync`, `每日追蹤`],
+  [`Team meeting agenda`, `團隊會議日程`],
+  [`User persona`, `個人形象`],
+  [`Empathy map`, `同理心地圖`],
+  [`All templates`, `所有範本`],
+  [`Search templates`, `搜尋範本`],
+  [`See more in Community`, `在社群中查看更多內容`],
+  [`by`, `作者`],
+  [`View details`, `查看詳細資訊`],
+  [`Planning ahead`, `提前規劃`],
+  [`Team updates`, `團隊更新`],
+  [`Team chart`, `團隊組織圖`],
+  [`Recommended`, `推薦`],
+  [`User researcher`, `使用者研究員`],
+  [`Designer`, `設計師`],
+  [`For the classroom`, `教室與課堂`],
+  // Figma 編輯器
+  [
+    `The Figma editor is not currently optimized for screen readers. Please consider presenting this design for a better screen reader experience. To do so, use the keyboard shortcut Ctrl+Alt+↩ .`,
+    `Figma 編輯器目前沒有優化螢幕閱讀器使用。請考慮採用這種設計以獲得更好的螢幕閱讀器使用體驗。使用鍵盤快捷鍵「Ctrl+Alt+↩」啟用這個設計。`,
+  ],
+  [
+    `Screenreader support for the board is currently disabled. To enable it via Accessibility settings, press Ctrl+/, type Accessibility Settings, and press Enter. To see available keyboard shortcuts, enter Ctrl+Shift+Question mark .`,
+    `白板的螢幕閱讀器支援已關閉。透過輔助設定開啟它，按下「Ctrl+/」，輸入「輔助設定」並按下「Enter」。查看可用的鍵盤快捷鍵，請按下「Ctrl+Shift+?」。`,
+  ],
+  [`Manage plugins...`, `管理插件...`],
+  [`Manage widgets...`, `管理小工具...`],
+  [`Use alternate zoom handling`, `使用替代放大處理`],
+  [`Color profile...`, `顏色檔案...`],
+  [`Toggle variables`, `切換變數`],
+  [`Check spelling`, `拼寫檢查`],
+  [`English (Canada)`, `英文（加拿大）`],
+  [`English (United Kingdom)`, `英文（英國）`],
+  [`English (United States)`, `英文（美國）`],
+  [`Russian`, `俄文`],
 ];
 
 let MutationObserver = window.MutationObserver || window.WebKitMutationObserver;
