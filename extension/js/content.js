@@ -3487,7 +3487,7 @@ const allData = [
   [`Or, browse templates`, `或是瀏覽範本`],
   [
     `Ex: A weekly team meeting, starting with an ice breaker`,
-    `例如：用一個破冰活動開始每周的會議`,
+    `例如：用一個破冰活動開始每週的會議`,
   ],
   [`Generate`, `生成`],
   [`1:1`, `1：1`],
@@ -3523,7 +3523,7 @@ const allData = [
   [`upgrade to a paid plan`, `升級到付費計畫`],
   [
     `, you can create unlimited files, organize your work into projects, and build a shared library of components for your team.`,
-    `，你可以創建無限檔案，將你的工作組織到專案當中，並打造一個與你的團隊共享的組件庫。`,
+    `，你可以建立無限檔案，將你的工作組織到專案當中，並打造一個與你的團隊共用的元件庫。`,
   ],
   [
     `You've reached your project limit (1/1)`,
@@ -3531,7 +3531,7 @@ const allData = [
   ],
   [
     ` for unlimited files, projects, and customizable team libraries.`,
-    `獲得無限制的檔案、專案、以及自定義團隊庫。`,
+    `取得無限制的檔案、專案、以及自訂團隊庫。`,
   ],
   // 團隊專案
   [`0 of 3 Figma files used`, `已使用 0 / 3 個 Figma 設計稿`],
@@ -3550,7 +3550,7 @@ const allData = [
   [`Note:`, `備註：`],
   [
     ` This is the only team that you own. After deleting it, you'll be redirected to a new team that'll be automatically created for you as part of Figma's updates to how teams and files are organized.`,
-    `這是你唯一擁有的團隊。刪除之後，你將會被重定向至為你自動創建的新團隊，作為 Figma 更新你的檔案和檔案組織方式的一部分。`,
+    `這是你唯一擁有的團隊。刪除後，你將會被重新導向至為你自動建立的新團隊，作為 Figma 更新你的檔案和檔案組織方式的一部分。`,
   ],
   // 邀請團隊
   [`Team invite link settings`, `團隊邀請連結設定`],
@@ -3562,7 +3562,7 @@ const allData = [
   [`Most popular`, `最受歡迎`],
   [
     `For you and your team, with unlimited files and all the pro features.`,
-    `為擬與你的團隊提供無限的檔案和其他的高級功能。`,
+    `為你與你的團隊提供無限的檔案和其他的進階功能。`,
   ],
   [`Figma Design`, `Figma 設計稿`],
   [`/editor/mo.`, `/編輯者/月`],
@@ -3588,7 +3588,7 @@ const allData = [
   ],
   [
     `Create and manage multiple projects and files.`,
-    `創建和管理多個專案和檔案。`,
+    `建立和管理多個專案和檔案。`,
   ],
   [
     `Use audio to talk with your collaborators directly in a Figma or FigJam file.`,
@@ -3596,11 +3596,11 @@ const allData = [
   ],
   [
     `Create invite-only spaces for your team to work privately.`,
-    `為你的團隊創建一個邀請制的私人工作空間，`,
+    `為你的團隊建立一個邀請制的私人工作空間，`,
   ],
   [
     `Create design systems with shared UI components for your team to use.`,
-    `使用你的團隊的共享組件創建設計系統`,
+    `使用你的團隊的共享元件建立設計系統`,
   ],
   [
     `Figma auto-saves and creates versions of your file every 30 minutes. You can name a version at any time and link to past versions.`,
@@ -3645,7 +3645,7 @@ const allData = [
   // 升級團隊計畫
   [`Select a team to upgrade`, `選擇一個團隊進行升級`],
   [` editor`, ` 位編輯者`],
-  [`Or create a new team to upgrade`, `或是創建一個新團隊進行升級`],
+  [`Or create a new team to upgrade`, `或是建立一個新團隊進行升級`],
   [`Team name, e.g. Product Design`, `團隊名稱，例如：產品設計部`],
   // 團隊專案
   [`Diagram Basics`, `基礎圖表`],
@@ -3668,7 +3668,7 @@ const allData = [
   // Figma 編輯器
   [
     `The Figma editor is not currently optimized for screen readers. Please consider presenting this design for a better screen reader experience. To do so, use the keyboard shortcut Ctrl+Alt+↩ .`,
-    `Figma 編輯器目前沒有優化螢幕閱讀器使用。請考慮採用這種設計以獲得更好的螢幕閱讀器使用體驗。使用鍵盤快捷鍵「Ctrl+Alt+↩」啟用這個設計。`,
+    `Figma 編輯器目前沒有最佳化螢幕閱讀器使用。請考慮採用這種設計以獲得更好的螢幕閱讀器使用體驗。使用鍵盤快捷鍵「Ctrl+Alt+↩」啟用這個設計。`,
   ],
   [
     `Screenreader support for the board is currently disabled. To enable it via Accessibility settings, press Ctrl+/, type Accessibility Settings, and press Enter. To see available keyboard shortcuts, enter Ctrl+Shift+Question mark .`,
