@@ -1455,7 +1455,7 @@ const allData = [
     `Figma 將設計過程中的每個人聯繫起來，讓團隊可以更快地交付更好的產品。`,
   ],
   [`Figma Design seats`, `Figma 設計席位`],
-  [`Figma for Slack and Microsoft Teams``Figma for Slack 和 Microsoft Teams`],
+  [`Figma for Slack and Microsoft Teams`, `Figma for Slack 和 Microsoft Teams`],
   [
     `Figma helps teams create, test, and ship better designs from start to finish.`,
     `Figma 在全流程中幫助團隊建立、測試和承載優秀設計。`,
